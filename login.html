@@ -12,19 +12,28 @@
 </head>
 <body>
     <div id="container">
+        
         <div id="login-titulo">
             <h2 class="titulo">Login</h2>
             <p class="texto-titulo">entre em sua conta</p>
         </div>
         <div id="login-form">
             <form action="">
-                <label for="user" class="lbl-user"> Usuário</label>
-                <input class="inp-usr" type="text" name="user" id="usr-login">
+                <div id="login-form-usr">
+                    <label for="user" class="lbl-user"> Usuário</label>
+                    <input class="input-usr" type="text" name="user" placeholder="Digite seu usuário">
+                </div>
+
+                <div id="login-form-psw">
+                    <label for="password" class="lbl-psw"> Senha</label>
+                    <input class="input-psw" type="password" name="senha" placeholder="Digite sua senha">
+                </div>
+
+
+                <div id="login-form-btn">
+                    <input class="login-btn" type="submit" value="Login">
+                </div>        
         
-                <label for="password" class="lbl-user"> Senha</label>
-                <input class="inp-psw" type="password" name="senha" id="psw-login">
-        
-                <input class="login-btn" type="submit" value="Login">
             </form>
     </div>
     </div>

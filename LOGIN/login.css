@@ -4,7 +4,7 @@
 }
 
 body {
-    background: #a3add8 url(../assets/imagens/fundo.jpg) no-repeat top center;
+    background: #a3add8 url(../assets/imagens/fundo6.jpg) no-repeat top center;
     background-size: cover;
     font-family: inter;
 }
@@ -17,10 +17,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 1200px;
-    height: 800px;
+    width: 800px;
+    height: 700px;
     min-width: 600px;
-    margin: 80px;
     top: 50%;
 	left: 50%;
 	position: absolute;
@@ -28,7 +27,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 20px 0 rgb(241, 233, 153);
 	box-sizing: border-box;
-	margin: 70px 25px;
+	margin: 20px 25px;
 }
 
  #wrapper {
@@ -51,8 +50,8 @@ body {
     text-align: center;
     font-size: 32px;
     font-weight: 700;
-    color: #0D99FF ;
-    margin-top: 50px;
+    color: #e7a20c ;
+    margin-top: 60px;
 }
 
 #login-titulo .texto-titulo {
@@ -62,6 +61,7 @@ body {
     font-family: Inter;
     font-weight: 400;
     margin-left: 50px;
+    
     line-height: 29.05px;
 }
 
@@ -71,8 +71,8 @@ body {
 /********Area de  Formulário *****************/
 
 #login-form {
-    width: 800px;
-    height: 650px;  
+    width: 700px;
+    height: 550px;  
     margin-left: 25px;
 }
 
